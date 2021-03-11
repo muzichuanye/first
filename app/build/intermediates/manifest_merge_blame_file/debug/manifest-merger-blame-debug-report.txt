@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.drcc.musicplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="21" />
+9-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:7:5-81
+11-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:7:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:8:5-80
+12-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:8:22-77
+13    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+13-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:9:5-81
+13-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+14-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:10:5-80
+14-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:10:22-77
+15
+16    <application
+16-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:12:5-44:19
+17        android:allowBackup="true"
+17-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:13:9-35
+18        android:debuggable="true"
+19        android:icon="@drawable/ic_launcher"
+19-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:14:9-45
+20        android:label="@string/app_name"
+20-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:15:9-41
+21        android:testOnly="true"
+22        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+22-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:16:9-73
+23        <activity
+23-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:17:9-26:20
+24            android:name="com.android.drcc.musicplayer.PlayerActivity"
+24-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:18:13-43
+25            android:label="@string/app_name" >
+25-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:19:13-45
+26            <intent-filter>
+26-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:20:13-25:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:21:17-69
+27-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:21:25-66
+28
+29                <category android:name="android.intent.category.HOME" />
+29-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:22:17-73
+29-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:22:27-70
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:24:17-77
+30-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:24:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <service
+34-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:28:9-31:39
+35            android:name="com.android.drcc.musicplayer.MusicService"
+35-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:29:13-41
+36            android:enabled="true"
+36-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:30:13-35
+37            android:exported="true" />
+37-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:31:13-36
+38
+39        <receiver
+39-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:33:9-43:23
+40            android:name="com.android.drcc.musicplayer.BootBroadcastReceiver"
+40-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:34:14-79
+41            android:enabled="true"
+41-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:35:14-36
+42            android:exported="true" >
+42-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:36:17-40
+43            <intent-filter>
+43-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:37:13-42:28
+44                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+44-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:38:17-77
+44-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:38:25-75
+45                <action android:name="android.intent.action.MEDIA_EJECT" />
+45-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:39:15-74
+45-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:39:23-71
+46                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+46-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:40:15-77
+46-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:40:23-75
+47
+48                <data android:scheme="file" />
+48-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:41:15-44
+48-->D:\DrccMusicPlayer1\app\src\main\AndroidManifest.xml:41:21-42
+49            </intent-filter>
+50        </receiver>
+51    </application>
+52
+53</manifest>

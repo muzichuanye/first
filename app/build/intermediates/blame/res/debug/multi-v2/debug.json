@@ -1,0 +1,149 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\DrccMusicPlayer1\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\DrccMusicPlayer1\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "182",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "316"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\DrccMusicPlayer1\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\DrccMusicPlayer1\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "225",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "373"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\DrccMusicPlayer1\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\DrccMusicPlayer1\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "5,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "166,58,112",
+                        "endColumns": "52,52,52",
+                        "endOffsets": "214,106,160"
+                    },
+                    "to": {
+                        "startLines": "8,9,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "358,411,464",
+                        "endColumns": "52,52,52",
+                        "endOffsets": "406,459,512"
+                    }
+                },
+                {
+                    "source": "D:\\DrccMusicPlayer1\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "157,57,105,204",
+                        "endColumns": "45,46,50,44",
+                        "endOffsets": "198,99,151,244"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,101,148,199",
+                        "endColumns": "45,46,50,44",
+                        "endOffsets": "96,143,194,239"
+                    }
+                },
+                {
+                    "source": "D:\\DrccMusicPlayer1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "244,302",
+                        "endColumns": "57,55",
+                        "endOffsets": "297,353"
+                    }
+                },
+                {
+                    "source": "D:\\DrccMusicPlayer1\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15,19",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "191,522,691",
+                        "endLines": "12,17,20",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "481,679,794"
+                    },
+                    "to": {
+                        "startLines": "11,18,21",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "517,808,968",
+                        "endLines": "17,20,22",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "803,963,1070"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\DrccMusicPlayer1\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13_values-w820dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\DrccMusicPlayer1\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "310",
+                        "endColumns": "57",
+                        "endOffsets": "363"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}
